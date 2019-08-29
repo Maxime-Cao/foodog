@@ -2,8 +2,8 @@
   border: 1px solid black;
 }
 
-body {
-  max-width: 60%;
-  margin: auto;
+.container {
+  max-width: 60% !important;
+  margin: auto !important;
 }
 /*# sourceMappingURL=style.css.map */
