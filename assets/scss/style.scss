@@ -43,10 +43,10 @@ font-family: 'Crimson Text', serif; */
 }
 #t_2 {
   height: 10%;
-  text-align: center;
   font-size: 0.6em;
   color: red;
   padding-top: 2em;
+  text-align: center;
 }
 #t_3 {
   height: 20%;
@@ -77,4 +77,72 @@ font-family: 'Crimson Text', serif; */
 .n_w {
   width: 120% !important;
   margin-left: -6em !important;
+}
+
+/*Partie css morgane */
+
+h5 {
+  font: {
+    size: 0.5em !important;
+    weight: 1000 !important;
+  }
+  text-transform: uppercase;
+  &:after {
+    background-color: #c5c5c5;
+    content: "";
+    display: inline-block;
+    height: 0.2em;
+    position: relative;
+    vertical-align: middle;
+    width: 80%;
+    left: 0.5em;
+  }
+}
+
+img {
+  width: 100%;
+}
+
+#v-line {
+  font-size: 1em;
+  color: darkgray;
+}
+
+h2 {
+  color: #ff573a;
+  font-size: 0.5em !important;
+  word-spacing: 1em;
+}
+
+h4 {
+  @extend .sans;
+  font: {
+    size: 0.7em !important;
+    weight: 1000 !important;
+  }
+  text-transform: uppercase;
+  color: #3b3b3b;
+}
+
+p {
+  @extend .crim;
+  font-size: 0.7em;
+  color: #5e5d5d;
+}
+
+#share {
+  color: black;
+  border-radius: 50px;
+  border: solid 0.1em #adadad;
+  padding: 0.5em;
+  margin-right: 0.5em;
+}
+a {
+  @extend .sans;
+  color: darkgray !important;
+  text-transform: uppercase;
+  font: {
+    size: 0.5em;
+    weight: bold;
+  }
 }

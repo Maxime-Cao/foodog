@@ -3,7 +3,7 @@ font-family: 'Crimson Text', serif; */
 /** {
   border: 1px solid black;
 }*/
-.crim {
+.crim, p {
   font-family: "Crimson Text", serif;
 }
 
@@ -18,7 +18,7 @@ font-family: 'Crimson Text', serif; */
   text-align: center;
 }
 
-.sans {
+.sans, h4, a {
   font-family: "Open Sans", sans-serif;
 }
 
@@ -50,10 +50,10 @@ font-family: 'Crimson Text', serif; */
 
 #t_2 {
   height: 10%;
-  text-align: center;
   font-size: 0.6em;
   color: red;
   padding-top: 2em;
+  text-align: center;
 }
 
 #t_3 {
@@ -84,5 +84,65 @@ font-family: 'Crimson Text', serif; */
 .n_w {
   width: 120% !important;
   margin-left: -6em !important;
+}
+
+/*Partie css morgane */
+h5 {
+  font-size: 0.5em !important;
+  font-weight: 1000 !important;
+  text-transform: uppercase;
+}
+
+h5:after {
+  background-color: #c5c5c5;
+  content: "";
+  display: inline-block;
+  height: 0.2em;
+  position: relative;
+  vertical-align: middle;
+  width: 80%;
+  left: 0.5em;
+}
+
+img {
+  width: 100%;
+}
+
+#v-line {
+  font-size: 1em;
+  color: darkgray;
+}
+
+h2 {
+  color: #ff573a;
+  font-size: 0.5em !important;
+  word-spacing: 1em;
+}
+
+h4 {
+  font-size: 0.7em !important;
+  font-weight: 1000 !important;
+  text-transform: uppercase;
+  color: #3b3b3b;
+}
+
+p {
+  font-size: 0.7em;
+  color: #5e5d5d;
+}
+
+#share {
+  color: black;
+  border-radius: 50px;
+  border: solid 0.1em #adadad;
+  padding: 0.5em;
+  margin-right: 0.5em;
+}
+
+a {
+  color: darkgray !important;
+  text-transform: uppercase;
+  font-size: 0.5em;
+  font-weight: bold;
 }
 /*# sourceMappingURL=style.css.map */
