@@ -7,6 +7,17 @@ font-family: 'Crimson Text', serif; */
 .crim {
   font-family: "Crimson Text", serif;
 }
+.titre {
+  text-align: center;
+  font: {
+    size: 2.2em;
+    weight: 400;
+  }
+}
+.nav_t {
+  font-size: 0.8em;
+  text-align: center;
+}
 .sans {
   font-family: "Open Sans", sans-serif;
 }
@@ -15,10 +26,7 @@ font-family: 'Crimson Text', serif; */
   margin: auto !important;
 }
 /*Partie css anteo */
-.f_size {
-  font-size: 1.2em;
-  text-align: center;
-}
+
 .marge {
   display: flex;
   justify-content: space-around;
@@ -36,7 +44,7 @@ font-family: 'Crimson Text', serif; */
 #t_2 {
   height: 10%;
   text-align: center;
-  font-size: 0.7em;
+  font-size: 0.6em;
   color: red;
   padding-top: 2em;
 }
@@ -45,6 +53,11 @@ font-family: 'Crimson Text', serif; */
   text-align: center;
   padding-bottom: 0.2em;
   margin: auto;
+  font: {
+    size: 0.8em;
+    weight: 1000;
+  }
+  text-transform: uppercase;
 }
 #t_4 {
   height: 20%;
@@ -52,7 +65,11 @@ font-family: 'Crimson Text', serif; */
   padding-bottom: 0em;
   margin: auto;
   margin-bottom: 0;
-  font-size: 1em;
+  font: {
+    size: 0.5em;
+    weight: 1000;
+  }
+  text-transform: uppercase;
 }
 .no-bottom {
   margin-bottom: O;
