@@ -1,12 +1,77 @@
 /* font-family: 'Open Sans', sans-serif;
 font-family: 'Crimson Text', serif; */
-
-* {
+/** {
   border: 1px solid black;
+}*/
+.crim {
+  font-family: "Crimson Text", serif;
+}
+
+.sans {
+  font-family: "Open Sans", sans-serif;
 }
 
 .container {
   max-width: 60% !important;
   margin: auto !important;
+}
+
+/*Partie css anteo */
+.f_size {
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.marge {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.space {
+  padding-left: 9em;
+  padding-right: 16em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+#t_1 {
+  width: 100%;
+  height: 70%;
+}
+
+#t_2 {
+  height: 10%;
+  text-align: center;
+  font-size: 0.7em;
+  color: red;
+  padding-top: 2em;
+}
+
+#t_3 {
+  height: 20%;
+  text-align: center;
+  padding-bottom: 0.2em;
+  margin: auto;
+}
+
+#t_4 {
+  height: 20%;
+  text-align: left;
+  padding-bottom: 0em;
+  margin: auto;
+  margin-bottom: 0;
+  font-size: 1em;
+}
+
+.no-bottom {
+  margin-bottom: O;
+}
+
+.n_w {
+  width: 120% !important;
+  margin-left: -6em !important;
 }
 /*# sourceMappingURL=style.css.map */
