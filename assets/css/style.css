@@ -3,7 +3,7 @@ font-family: 'Crimson Text', serif; */
 /* * {
   border: 1px solid black;
 }*/
-.crim {
+.crim, p {
   font-family: "Crimson Text", serif;
 }
 
@@ -18,7 +18,7 @@ font-family: 'Crimson Text', serif; */
   text-align: center;
 }
 
-.sans {
+.sans, h4, .featured a {
   font-family: "Open Sans", sans-serif;
 }
 
@@ -51,10 +51,10 @@ font-family: 'Crimson Text', serif; */
 
 #t_2 {
   height: 10%;
-  text-align: center;
   font-size: 0.6em;
   color: red;
   padding-top: 2em;
+  text-align: center;
 }
 
 #t_3 {
@@ -157,5 +157,109 @@ font-family: 'Crimson Text', serif; */
 
 .txt_right {
   text-align: right;
+}
+
+/*Partie css morgane */
+h5 {
+  font-size: 0.5em !important;
+  font-weight: 1000 !important;
+  text-transform: uppercase;
+}
+
+h5:after {
+  background-color: #f2f2f2;
+  content: "";
+  display: inline-block;
+  height: 0.2em;
+  position: relative;
+  vertical-align: middle;
+  width: 80%;
+  left: 0.5em;
+}
+
+img {
+  width: 100%;
+}
+
+#v-line {
+  font-size: 1em;
+  color: #aaa;
+}
+
+h2 {
+  color: #fa8460;
+  font-size: 0.5em !important;
+  font-weight: 1000 !important;
+  word-spacing: 1em;
+  padding-top: 1em;
+}
+
+#center {
+  text-align: center;
+}
+
+h4 {
+  font-size: 0.7em !important;
+  font-weight: 1000 !important;
+  text-transform: uppercase;
+  color: #444343;
+}
+
+p {
+  font-size: 0.7em;
+  color: #6b6a6a;
+}
+
+#share {
+  color: black;
+  border-radius: 50px;
+  border: solid 0.1em #adadad;
+  padding: 0.5em;
+  margin-right: 0.5em;
+}
+
+.featured a {
+  color: #aaa !important;
+  text-transform: uppercase;
+  font-size: 0.5em;
+  font-weight: bold;
+}
+
+.pagination {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.page-num {
+  border-radius: 50px;
+  margin: 0.5em !important;
+  font-size: 0.6em !important;
+  border: 0.1em solid #aaa !important;
+  width: 2.5em;
+  height: 2.5em;
+  text-align: center;
+  line-height: 2.5em;
+}
+
+.current {
+  color: white;
+  background-color: #444343;
+}
+
+.pagination a {
+  color: #aaa;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.dots {
+  color: #aaa;
+  font-size: 0.4em;
+  font-weight: bold;
 }
 /*# sourceMappingURL=style.css.map */
