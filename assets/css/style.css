@@ -22,6 +22,9 @@ font-family: 'Crimson Text', serif; */
   font-family: "Open Sans", sans-serif;
 }
 
+/* * {
+  border: 1px solid black;
+} */
 .container {
   max-width: 60% !important;
   margin: auto !important;
@@ -261,5 +264,94 @@ p {
   color: #aaa;
   font-size: 0.4em;
   font-weight: bold;
+}
+
+#footer1-cont1 {
+  background-color: #383734;
+}
+
+#footer1-cont2 {
+  padding-top: 60px;
+  color: white;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+}
+
+h6 {
+  font-size: 0.5em !important;
+  font-weight: 1000 !important;
+  text-transform: uppercase;
+  margin-left: 1rem;
+}
+
+.column1 {
+  margin-bottom: 0;
+}
+
+#footer1-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#footer1-list .list-item {
+  border-bottom: 0.1rem solid rgba(255, 255, 255, 0.05);
+  line-height: 2rem;
+  font-size: 0.6em;
+}
+
+.pictures1 {
+  max-width: 120%;
+  max-height: 120%;
+  padding-bottom: 2rem;
+}
+
+.max-w {
+  max-width: 100% !important;
+}
+
+.text-resize {
+  font-size: 0.5rem;
+}
+
+.text-resize2 {
+  font-size: 0.8rem;
+}
+
+.flex {
+  padding: 0 !important;
+  max-width: 90%;
+  max-height: 90%;
+  padding-top: 1em;
+}
+
+.r_dis {
+  position: relative;
+}
+
+.set {
+  max-height: 130%;
+}
+
+#footer-media {
+  height: 8rem;
+  background-color: #242321;
+}
+
+.media-icons {
+  color: white;
+  text-align: right;
+  padding-top: 1rem;
+}
+
+#icons {
+  border: 0.8rem solid #383734;
+  background-color: #383734;
+  border-radius: 3rem;
+  margin-right: 0.4rem;
+}
+
+.dim i {
+  width: 1em !important;
+  height: 1em !important;
 }
 /*# sourceMappingURL=style.css.map */
