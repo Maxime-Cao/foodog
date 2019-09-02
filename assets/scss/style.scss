@@ -98,3 +98,37 @@ font-family: 'Crimson Text', serif; */
 .bottom_cont {
   padding-bottom: 2em;
 }
+.nav_img {
+  max-width: 1em;
+}
+/*Bouton Featured face-insta-tweet*/
+.blue_back {
+  color: white;
+  background-color: rgba(0, 216, 255, 1);
+}
+.hblue_back {
+  background-color: rgba(0, 123, 255, 1);
+  color: white;
+}
+.posi_back {
+  margin-top: 0.3em;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+.text_back {
+  font-size: 0.5em !important;
+  text-align: left;
+  p {
+    position: relative;
+    top: 0.8em;
+  }
+}
+.img_back {
+  max-width: 3em;
+  padding-left: 0;
+  margin-left: 0;
+}
+.txt_right {
+  text-align: right;
+}

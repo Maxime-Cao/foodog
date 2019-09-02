@@ -112,4 +112,50 @@ font-family: 'Crimson Text', serif; */
 .bottom_cont {
   padding-bottom: 2em;
 }
+
+.nav_img {
+  max-width: 1em;
+}
+
+/*Bouton Featured face-insta-tweet*/
+.blue_back {
+  color: white;
+  background-color: #00d8ff;
+}
+
+.hblue_back {
+  background-color: #007bff;
+  color: white;
+}
+
+.posi_back {
+  margin-top: 0.3em;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.text_back {
+  font-size: 0.5em !important;
+  text-align: left;
+}
+
+.text_back p {
+  position: relative;
+  top: 0.8em;
+}
+
+.img_back {
+  max-width: 3em;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.txt_right {
+  text-align: right;
+}
 /*# sourceMappingURL=style.css.map */
