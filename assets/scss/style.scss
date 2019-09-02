@@ -81,6 +81,8 @@ font-family: 'Crimson Text', serif; */
 
 /*Partie css morgane */
 
+$grey: #aaa;
+
 h5 {
   font: {
     size: 0.5em !important;
@@ -88,7 +90,7 @@ h5 {
   }
   text-transform: uppercase;
   &:after {
-    background-color: #c5c5c5;
+    background-color: #f2f2f2;
     content: "";
     display: inline-block;
     height: 0.2em;
@@ -105,13 +107,21 @@ img {
 
 #v-line {
   font-size: 1em;
-  color: darkgray;
+  color: $grey;
 }
 
 h2 {
-  color: #ff573a;
-  font-size: 0.5em !important;
+  color: #fa8460;
+  font: {
+    size: 0.5em !important;
+    weight: 1000 !important;
+  }
   word-spacing: 1em;
+  padding-top: 1em;
+}
+
+#center {
+  text-align: center;
 }
 
 h4 {
@@ -121,13 +131,13 @@ h4 {
     weight: 1000 !important;
   }
   text-transform: uppercase;
-  color: #3b3b3b;
+  color: #444343;
 }
 
 p {
   @extend .crim;
   font-size: 0.7em;
-  color: #5e5d5d;
+  color: #6b6a6a;
 }
 
 #share {
@@ -137,12 +147,44 @@ p {
   padding: 0.5em;
   margin-right: 0.5em;
 }
-a {
+.featured a {
   @extend .sans;
-  color: darkgray !important;
+  color: $grey !important;
   text-transform: uppercase;
   font: {
     size: 0.5em;
     weight: bold;
   }
+}
+
+.pagination {
+  justify-content: center;
+  align-items: baseline;
+}
+
+.page-num {
+  border-radius: 50px;
+  margin: 0.5em !important;
+  font-size: 0.6em !important;
+  border: 0.1em solid $grey !important;
+  width: 2.5em;
+  height: 2.5em;
+  text-align: center;
+  line-height: 2.5em;
+}
+
+.current {
+  color: white;
+  background-color: #444343;
+}
+
+.pagination a {
+  color: $grey;
+  align-items: baseline;
+}
+
+.dots {
+  color: $grey;
+  font-size: 0.4em;
+  font-weight: bold;
 }
