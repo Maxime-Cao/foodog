@@ -1,11 +1,274 @@
 /* font-family: 'Open Sans', sans-serif;
 font-family: 'Crimson Text', serif; */
+/* * {
+  border: 1px solid black;
+}*/
+.crim,
+p {
+  font-family: "Crimson Text", serif;
+}
+
+.titre {
+  text-align: center;
+  font-size: 2.2em;
+  font-weight: 400;
+}
+
+.nav_t {
+  font-size: 0.8em;
+  text-align: center;
+}
+
+.sans,
+h4,
+.featured a {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* * {
+  border: 1px solid black;
+} */
 .container {
   max-width: 60% !important;
   margin: auto !important;
 }
 
-/*Partie de max*/
+.marge {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  max-width: 70%;
+}
+
+.space {
+  position: relative;
+  left: 15em;
+  padding-left: 1em;
+  padding-right: 16em;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+#t_1 {
+  width: 100%;
+}
+
+#t_2 {
+  height: 10%;
+  font-size: 0.6em;
+  color: red;
+  padding-top: 2em;
+  text-align: center;
+}
+
+#t_3 {
+  height: 20%;
+  text-align: center;
+  padding-bottom: 0.2em;
+  margin: auto;
+  font-size: 0.8em;
+  font-weight: 1000;
+  text-transform: uppercase;
+}
+
+#t_4 {
+  height: 20%;
+  text-align: left;
+  padding-bottom: 0em;
+  margin: auto;
+  margin-bottom: 0;
+  font-size: 0.5em;
+  font-weight: 1000;
+  text-transform: uppercase;
+}
+
+.no-bottom {
+  margin-bottom: O;
+}
+
+.n_w {
+  width: 120% !important;
+  margin-left: -6em !important;
+}
+
+.pad_top {
+  padding-top: 1em;
+}
+
+.pad_gau {
+  padding-left: 0 !important;
+}
+
+.rpos {
+  position: relative;
+  left: 1.4em;
+}
+
+#over {
+  width: 120%;
+}
+
+.ower {
+  width: 120%;
+  padding-top: 1em;
+}
+
+.bottom_cont {
+  padding-bottom: 2em;
+}
+
+.nav_img {
+  max-width: 1em;
+}
+
+/*Bouton Featured face-insta-tweet*/
+.blue_back {
+  color: white;
+  background-color: #00d8ff;
+}
+
+.hblue_back {
+  background-color: #007bff;
+  color: white;
+}
+
+.posi_back {
+  margin-top: 0.3em;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.text_back {
+  font-size: 0.5em !important;
+  text-align: left;
+}
+
+.text_back p {
+  position: relative;
+  top: 0.8em;
+}
+
+.img_back {
+  max-width: 3em;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.txt_right {
+  text-align: right;
+}
+
+/*Partie css morgane */
+h5 {
+  font-size: 0.5em !important;
+  font-weight: 1000 !important;
+  text-transform: uppercase;
+}
+
+h5:after {
+  background-color: #f2f2f2;
+  content: "";
+  display: inline-block;
+  height: 0.2em;
+  position: relative;
+  vertical-align: middle;
+  width: 80%;
+  left: 0.5em;
+}
+
+img {
+  width: 100%;
+}
+
+#v-line {
+  font-size: 1em;
+  color: #aaa;
+}
+
+h2 {
+  color: #fa8460;
+  font-size: 0.5em !important;
+  font-weight: 1000 !important;
+  word-spacing: 1em;
+  padding-top: 1em;
+}
+
+#center {
+  text-align: center;
+}
+
+h4 {
+  font-size: 0.7em !important;
+  font-weight: 1000 !important;
+  text-transform: uppercase;
+  color: #444343;
+}
+
+p {
+  font-size: 0.7em;
+  color: #6b6a6a;
+}
+
+#share {
+  color: black;
+  border-radius: 50px;
+  border: solid 0.1em #adadad;
+  padding: 0.5em;
+  margin-right: 0.5em;
+}
+
+.featured a {
+  color: #aaa !important;
+  text-transform: uppercase;
+  font-size: 0.5em;
+  font-weight: bold;
+}
+
+.pagination {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+}
+
+.page-num {
+  border-radius: 50px;
+  margin: 0.5em !important;
+  font-size: 0.6em !important;
+  border: 0.1em solid #aaa !important;
+  width: 2.5em;
+  height: 2.5em;
+  text-align: center;
+  line-height: 2.5em;
+}
+
+.current {
+  color: white;
+  background-color: #444343;
+}
+
+.pagination a {
+  color: #aaa;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+}
+
+.dots {
+  color: #aaa;
+  font-size: 0.4em;
+  font-weight: bold;
+}
+
 #footer1-cont1 {
   background-color: #383734;
 }
@@ -94,4 +357,5 @@ h6 {
   width: 1em !important;
   height: 1em !important;
 }
+
 /*# sourceMappingURL=style.css.map */
