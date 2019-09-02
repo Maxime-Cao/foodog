@@ -1,18 +1,16 @@
 /* font-family: 'Open Sans', sans-serif;
 font-family: 'Crimson Text', serif; */
 
-$pfootercolor: white;
-$pfooterfont: 'Open Sans',
-sans-serif;
-
-/* * {
-  border: 1px solid black;
-} */
 
 .container {
   max-width: 60% !important;
   margin: auto !important;
 }
+
+/*Partie de max*/
+$pfootercolor: white;
+$pfooterfont: 'Open Sans',
+sans-serif;
 
 #footer1-cont1 {
   background-color: #383734;
