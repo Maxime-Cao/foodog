@@ -41,14 +41,20 @@ $grey: #aaa;
   position: relative;
   left: 1.4em;
 }
-.featured a {
-  @extend .sans;
-  color: $grey !important;
-  text-transform: uppercase;
-  font: {
-    size: 0.5em;
-    weight: bold;
+.featured {
+  a {
+    @extend .sans;
+    color: $grey !important;
+    text-transform: uppercase;
+    font: {
+      size: 0.5em;
+      weight: bold;
+    }
   }
+}
+.nutri {
+  background-color: #f2f2f2;
+  line-height: 4em;
 }
 
 h1 {
