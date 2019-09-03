@@ -425,11 +425,6 @@ img {
   border-radius: 2px;
 }
 
-#comment {
-  background-color: #555555;
-  color: white !important;
-}
-
 #share2 {
   color: #555555 !important;
 }
@@ -444,8 +439,13 @@ img {
   color: white !important;
 }
 
-#insta {
+#pinterest {
   background-color: #f74c53;
+  color: white !important;
+}
+
+#social-dark {
+  background-color: #555555;
   color: white !important;
 }
 

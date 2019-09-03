@@ -387,8 +387,7 @@ img {
 /* règles pour les liens réseaux sociaux */
 $bleu-fb: #899dce;
 $bleu-twitter: #60d2f5;
-$rouge-insta: #f74c53;
-$gris-comment: #555555;
+$rouge-pinterest: #f74c53;
 .social-round {
   border-radius: 50px;
   width: 2.5em;
@@ -405,11 +404,8 @@ $gris-comment: #555555;
   background-color: $color;
   color: white !important;
 }
-#comment {
-  @include bouton-social($gris-comment);
-}
 #share2 {
-  color: $gris-comment !important;
+  color: #555555 !important;
 }
 #fb {
   @include bouton-social($bleu-fb);
@@ -417,8 +413,11 @@ $gris-comment: #555555;
 #twitter {
   @include bouton-social($bleu-twitter);
 }
-#insta {
-  @include bouton-social($rouge-insta);
+#pinterest {
+  @include bouton-social($rouge-pinterest);
+}
+#social-dark {
+  @include bouton-social(#555555);
 }
 /* fin */
 
