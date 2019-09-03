@@ -247,10 +247,7 @@ img {
 }
 
 .flex {
-  padding: 0 !important;
-  max-width: 90%;
-  max-height: 90%;
-  padding-top: 1em;
+  padding: 0em 3em 3em 3em !important;
 }
 
 #footer-media {
