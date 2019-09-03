@@ -1,8 +1,9 @@
+@charset "UTF-8";
 .crim, h1, p {
   font-family: "Crimson Text", serif;
 }
 
-.sans, .featured a, h2, h3, h4, h5, h6, .txt_right a, #footer1-cont2, .author, .comment {
+.sans, .featured a, h2, h3, h4, h5, h6, .txt_right a, #footer1-cont2, .author, #titre {
   font-family: "Open Sans", sans-serif;
 }
 
@@ -45,7 +46,7 @@
 }
 
 .featured a {
-  color: #aaa !important;
+  color: #aaaaaa !important;
   text-transform: uppercase;
   font-size: 0.5em;
   font-weight: bold;
@@ -107,7 +108,7 @@ h5:after {
 }
 
 h6 {
-  color: #aaa;
+  color: #aaaaaa;
   text-transform: uppercase;
   font-size: 0.5em !important;
   font-weight: 1000 !important;
@@ -116,7 +117,7 @@ h6 {
 
 p {
   font-size: 0.7em;
-  color: #6b6a6a;
+  color: #585858;
 }
 
 .text_back p {
@@ -170,7 +171,7 @@ img {
 
 #v-line {
   font-size: 1em;
-  color: #aaa;
+  color: #aaaaaa;
 }
 
 #center {
@@ -185,6 +186,7 @@ img {
   margin-right: 0.5em;
 }
 
+/*code morgane pour la pagination chiffres ronds */
 .pagination {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -194,11 +196,18 @@ img {
           align-items: baseline;
 }
 
+.pagination a {
+  color: #aaaaaa;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
 .page-num {
   border-radius: 50px;
   margin: 0.5em !important;
   font-size: 0.6em !important;
-  border: 0.1em solid #aaa !important;
+  border: 0.1em solid #aaaaaa !important;
   width: 2.5em;
   height: 2.5em;
   text-align: center;
@@ -210,19 +219,14 @@ img {
   background-color: #444343;
 }
 
-.pagination a {
-  color: #aaa;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
-}
-
 .dots {
-  color: #aaa;
+  color: #aaaaaa;
   font-size: 0.4em;
   font-weight: bold;
 }
 
+/* fin */
+/* code max pour les footers */
 #footer1-cont1 {
   background-color: #383734;
 }
@@ -277,6 +281,8 @@ img {
   line-height: 0.6em;
 }
 
+/*fin*/
+/*code anteo pour la barre supérieure des menus dans la single */
 #img_menu img {
   width: 2em;
   position: relative;
@@ -288,10 +294,7 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical !important;
-  -webkit-box-direction: normal !important;
-      -ms-flex-direction: column !important;
-          flex-direction: column !important;
+  bolderflex-direction: column !important;
 }
 
 #menu a {
@@ -389,10 +392,13 @@ img {
   bottom: 2em;
 }
 
+/* fin */
+/* barre supérieure des menus dans la single */
 .resize {
   height: 3em !important;
 }
 
+/* logo + "by: THE FARMER'S DOG" sous l'image dans la single */
 .n_size {
   width: 20%;
 }
@@ -400,12 +406,54 @@ img {
 .author {
   font-size: 0.5em;
   font-weight: bold !important;
-  color: #aaa;
+  color: #aaaaaa;
 }
 
-.comment {
-  text-transform: uppercase;
-  font-size: 0.5em !important;
-  font-weight: bold !important;
+/* fin */
+/* règles pour les liens réseaux sociaux */
+.social-round {
+  border-radius: 50px;
+  width: 2.5em;
+  height: 2.5em;
+  line-height: 2.5em !important;
+  text-align: center;
+}
+
+.social-rectangle {
+  padding: 0.5em 1em 0.5em 1em;
+  text-align: center;
+  border-radius: 2px;
+}
+
+#comment {
+  background-color: #555555;
+  color: white !important;
+}
+
+#share2 {
+  color: #555555 !important;
+}
+
+#fb {
+  background-color: #899dce;
+  color: white !important;
+}
+
+#twitter {
+  background-color: #60d2f5;
+  color: white !important;
+}
+
+#insta {
+  background-color: #f74c53;
+  color: white !important;
+}
+
+/* fin */
+/* soustitres paragraphes single */
+#titre {
+  font-size: 0.7em;
+  font-weight: 1000 !important;
+  padding-top: 1em;
 }
 /*# sourceMappingURL=style.css.map */

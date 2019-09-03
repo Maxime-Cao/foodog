@@ -1,29 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Single Page</title>
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Crimson+Text&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
-      rel="stylesheet"
-    />
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
-  </head>
-  <div>
-    <body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Single Page</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Text&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+</head>
+<div>
+
+  <body>
     <!--Barre superieur des menus-->
     <header class="container-fluid">
       <nav class="row resize">
@@ -35,18 +27,18 @@
             <a>Lifestyle</a>
             <a>Community</a>
           </div>
-          <p class="pos_t" >Foodog</h1>
+          <p class="pos_t">Foodog</h1>
         </div>
         <div class="col-md-4 flux">
           <p class="lower sans">Digest In Your Inbox</p>
           <div class="border flax lower">
-          <input type="text" size="30" minlength="4" width="20">
-          <p class="black pos sans p-1">Suscribe</p>
+            <input type="text" size="30" minlength="4" width="20">
+            <p class="black pos sans p-1">Suscribe</p>
           </div>
         </div>
         <div class="col-md-4 rech flax">
           <img class="logo" src="assets/images/logo.png" alt="food logo">
-          <input class="hid marg" type="text" size="30" minlength="4" width="10" >
+          <input class="hid marg" type="text" size="30" minlength="4" width="10">
           <img class="logo" src="assets/images/loupe.png" alt="loupe">
         </div>
       </nav>
@@ -55,24 +47,89 @@
     <!--Main-->
     <section class="container featured">
       <div class="row">
+        <!--Titre et photo article-->
         <article class="col-md-8">
-        <h2 class="pt-3" id="center">Nutrition</h2>
-        <h3>The 11 dog food label tricks every owner needs to know</h3> 
-        <img alt="Dog treats" src="assets/images/dog-food-2.png" />
-        <section class="row">
-        <section class="col-md-4">
-          <img class="n_size" src="assets/images/logo.png">
-          <span class="author">by: THE FARMER'S DOG |</span></section>
-        <section class="col-md-5 offset-md-3">
-          <button type="button" class="btn btn-dark comment p-1"><i class="fas fa-comment pr-2"></i>comment</button>
-        <button type="button" class="btn btn-light comment p-1">share</button>
-        <i class="fab fa-facebook-f"></i>
-<i class="fab fa-twitter"></i>
-<i class="fab fa-instagram"></i>
-        </section>
-        </section>
-      </article>
-        
+          <h2 class="pt-3" id="center">Nutrition</h2>
+          <h3>The 11 dog food label tricks every owner needs to know</h3>
+          <img alt="Dog treats" src="assets/images/dog-food-2.png" />
+          <!--Bandeau auteur et réseaux sociaux-->
+          <section class="row">
+            <section class="col-md-6">
+              <img class="n_size" src="assets/images/logo.png">
+              <span class="author">by: THE FARMER'S DOG |</span></section>
+            <section class="col-md-6">
+              <a class="social-rectangle" id="share2" href="">share</a>
+              <a class="social-rectangle mr-2" id="comment" href=""><i class="fas fa-comment pr-1"></i>comment</a>
+              <a href=""><i id="fb" class="fab fa-facebook-f social-round"></i></a>
+              <a href=""><i id="twitter" class="fab fa-twitter social-round"></i></a>
+              <a href=""><i id="insta" class="fab fa-instagram social-round"></i></a>
+            </section>
+          </section>
+          <!--Texte article-->
+          <section class="row mt-4">
+            <div class="col-md-12">
+              <p>Health-conscious consumers are skilled at deciphering nutrition facts labels. We know to monitor our
+                sodium intake, avoid carrageenan and high fructose corn syrup, and understand that even organic,
+                all-natural potato chips are still chips. </p>
+              <p>Pet food products, however, remain a mystery. Pet food marketing aims to paint a picture of health
+                (think: images of farms and fresh vegetables on a shelf-stable bag of brown kibble), and every company
+                promises to be the best option for your dog. It’s tempting to throw in the towel on label vigilance in
+                the pet food aisle and blindly believe the bags, but understanding your dog’s food labels is just as
+                important as carefully examining your own.</p>
+              <p>Step one: learn to recognize the food label tricks that most pet companies are using.</p>
+              <p id="titre">First ingredient</p>
+              <p>The USDA defines “natural” as a product that has no artificial ingredients or added color, but doesn’t
+                account for
+                additives like antibiotics, growth hormones, or other chemicals. The term is so broad that the FDA is
+                still struggling
+                to come up with a legal definition for it. Legally speaking, there is no required difference between
+                foods labeled
+                “all-natural” and “natural.” Natural is not necessarily organic, but organic must be considered natural.
+              </p>
+              <p id="titre">Gourmet</p>
+              <p>We associate the term with fresh veggies and farm-to-table dining, but there are no legal regulations
+                that determine
+                when this term can be used on food labels.</p>
+              <p id="titre">Grain-free</p>
+              <p>A product sans grain is technically free of corn, soy, wheat, barley, and oats. Grain-free products,
+                however, are not
+                necessarily low-carb; in reality, grain-free dog foods tend to have just as many carbohydrates as dog
+                food that is not
+                grain-free, especially when high-starch items, like potatoes, are used to replace grain.</p>
+              <p id="titre">Cage-free and/or free-range</p>
+              <p>“Cage-free” is exactly what it sounds like: poultry that hasn’t been raised in a cage. But don’t be
+                fooled — cage-free
+                isn’t as free or spacious as it sounds. Chickens raised for meat (even those that are “cage-free”) are
+                typically kept in
+                tight, indoor spaces that are cramped and uncomfortable. By USDA definition, “cage-free” and
+                “free-range” only require
+                that animals have had access to the outside.</p>
+              <p id="titre">Grass-fed</p>
+              <p>Though we might often associate “grass-fed” with “free-range,” one does not guarantee the other.
+                Technically speaking,
+                cows can be grass-fed and still contained, only let out to graze for short periods at a time. Though the
+                USDA regulates
+                how the term is used on labels, it does not regulate how, in practice, the “grass-fed” animals are
+                actually fed.</p>
+              <p>In the end, we recommend feeding only from the best dog food companies you know you can trust, and
+                ideally choosing
+                fresh food whenever possible. Stick to foods you can see and the whole feeding process becomes a lot
+                less tricky.</p>
+            </div>
+          </section>
+          <!--Second bandeau réseaux sociaux-->
+          <section class="row justify-content-md-center mb-3">
+            <section class="col-md-auto">
+              <a class="social-rectangle" id="share2" href="">share</a>
+              <a class="social-rectangle mr-2" id="comment" href=""><i class="fas fa-comment pr-1"></i>comment</a>
+              <a class="social-rectangle mr-2" id="fb" href=""><i class="fab fa-facebook-f pr-1"></i>share</a>
+              <a class="social-rectangle mr-2" id="twitter" href=""><i class="fab fa-twitter pr-1"></i>tweet</a>
+              <a class="social-rectangle" id="insta" href=""><i class="fab fa-instagram pr-1"></i>pin it</a>
+            </section>
+          </section>
+
+        </article>
+
         <aside class="col-md-4 ">
           <article class="row">
             <article class="n_width">
@@ -82,7 +139,7 @@
         </aside>
       </div>
     </section>
-        <!--footer 1-->
+    <!--footer 1-->
     <footer class="container-fluid p-0" id="footer1-cont1">
       <section class="container" id="footer1-cont2">
         <div class="row">
@@ -110,11 +167,7 @@
             <h6>POPULAR POSTS</h6>
             <article class="row">
               <div class="col-md-4">
-                <img
-                  class="pictures1"
-                  alt="Dog vomit"
-                  src="assets/images/vomit-2.png"
-                />
+                <img class="pictures1" alt="Dog vomit" src="assets/images/vomit-2.png" />
               </div>
               <div class="col-md-8 pl-0">
                 5 Reasons Your Dog is Vomiting
@@ -122,11 +175,7 @@
             </article>
             <article class="row">
               <div class="col-md-4">
-                <img
-                  class="pictures1"
-                  alt="Dog eat"
-                  src="assets/images/snacks-2.png"
-                />
+                <img class="pictures1" alt="Dog eat" src="assets/images/snacks-2.png" />
               </div>
               <div class="col-md-8 pl-0">
                 Top 14 Fresh Snacks for Dogs
@@ -134,11 +183,7 @@
             </article>
             <article class="row">
               <div class="col-md-4">
-                <img
-                  class="pictures1"
-                  alt="Skinny dog"
-                  src="assets/images/skinny-3.png"
-                />
+                <img class="pictures1" alt="Skinny dog" src="assets/images/skinny-3.png" />
               </div>
               <div class="col-md-8 pl-0">
                 Why Skinny Dogs Live Longer
@@ -165,4 +210,5 @@
       </nav>
     </article>
   </body>
+
 </html>
