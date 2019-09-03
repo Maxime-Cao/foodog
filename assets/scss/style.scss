@@ -372,3 +372,22 @@ img {
 .resize {
   height: 3em !important;
 }
+.n_size {
+  width: 20%;
+}
+.author {
+  @extend .sans;
+  font: {
+    size: 0.5em;
+    weight: bold !important;
+  }
+  color: $grey;
+}
+.comment {
+  @extend .sans;
+  text-transform: uppercase;
+  font: {
+    size: 0.5em !important;
+    weight: bold !important;
+  }
+}
