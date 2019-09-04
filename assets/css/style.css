@@ -3,7 +3,7 @@
   font-family: "Crimson Text", serif;
 }
 
-.sans, .featured a, h2, h3, h4, h5, h6, .txt_right a, #footer1-cont2, .author, .boutons, #sign, #comment, #titre, #newsletter-2, #newsletter-1, #form-text {
+.sans, .featured a, h2, h3, h4, h5, h6, .txt_right a, #footer1-cont2, .author, .boutons .comment, .boutons #sign .comment, .boutons #comment .comment, .boutons #titre, .boutons #newsletter-2, .boutons #newsletter-1, .boutons #form-text {
   font-family: "Open Sans", sans-serif;
 }
 
@@ -227,6 +227,7 @@ img {
 
 /* fin */
 /* code max pour les footers */
+/*Partie de max*/
 #footer1-cont1 {
   background-color: #383734;
 }
@@ -283,6 +284,7 @@ img {
 
 /*fin*/
 /*code anteo pour la barre supérieure des menus dans la single */
+/*------------------------------------------------------------------------------------------*/
 #img_menu img {
   width: 2em;
   position: relative;
@@ -295,6 +297,10 @@ img {
   display: -ms-flexbox;
   display: flex;
   bolderflex-direction: column !important;
+  -webkit-box-orient: vertical !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: column !important;
+          flex-direction: column !important;
 }
 
 #menu a {
@@ -449,7 +455,18 @@ img {
   color: white !important;
 }
 
-.boutons, #sign, #comment {
+.boutons, .boutons #sign, .boutons #comment {
+  /* fin */
+  /* soustitres paragraphes single */
+  /* texte inscription newsletter */
+  /* fin */
+  /* texte pour les placeholders */
+  /* formulaire comment */
+  /*Version mobile*/
+  /*Version tablette*/
+}
+
+.boutons .comment, .boutons #sign .comment, .boutons #comment .comment {
   text-transform: uppercase;
   font-size: 0.6em;
   font-weight: bold;
@@ -458,47 +475,105 @@ img {
   padding: 0.8em 3em 0.8em 3em;
 }
 
-#sign {
+.boutons #sign {
   background-color: #fa8460;
   color: white !important;
 }
 
-#comment {
+.boutons #comment {
   background-color: black;
   color: white !important;
 }
 
-/* fin */
-/* soustitres paragraphes single */
-#titre {
+.boutons #titre {
   font-size: 0.7em;
   font-weight: 1000 !important;
   padding-top: 1em;
   color: #383838;
 }
 
-/* texte inscription newsletter */
-#newsletter-2, #newsletter-1 {
+.boutons #newsletter-2, .boutons #newsletter-1 {
   font-size: 0.6em;
   font-weight: bold;
 }
 
-#newsletter-1 {
+.boutons #newsletter-1 {
   font-size: 1.1em;
   color: #383838;
 }
 
-/* fin */
-/* texte pour les placeholders */
-#form-text {
+.boutons #form-text {
   font-size: 0.6em;
   padding: 0.5em 5em 0.5em 1em;
 }
 
-/* formulaire comment */
-.in_l {
+.boutons .in_l, .boutons #sign .in_l, .boutons #comment .in_l {
   width: 100%;
   height: 20em;
   margin-bottom: 2em;
+}
+
+.boutons #hidden-pc {
+  display: none;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 599px) {
+  .boutons #hidden-mob {
+    display: none;
+  }
+  .boutons #hidden-pc {
+    display: inline-block;
+  }
+  .boutons #img_menu:hover #menu {
+    position: relative !important;
+    z-index: 1;
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+  .boutons #img_menu:hover .anim_float {
+    -webkit-transition: 0.1s;
+    transition: 0.1s;
+    position: relative;
+    left: 80px;
+    top: -200px;
+  }
+  .boutons .n_w, .boutons #sign .n_w, .boutons #comment .n_w {
+    margin: 0 !important;
+    max-width: 100% !important;
+  }
+  .boutons .rpos_mob, .boutons #sign .rpos_mob, .boutons #comment .rpos_mob {
+    position: relative;
+    left: 0;
+  }
+  .boutons .pos_mob, .boutons #sign .pos_mob, .boutons #comment .pos_mob {
+    position: relative;
+    left: -1em;
+  }
+  .boutons .img_mob, .boutons #sign .img_mob, .boutons #comment .img_mob {
+    position: relative;
+    left: 1.5em;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1080px) {
+  .boutons #hidden-mob {
+    display: none !important;
+  }
+  .boutons #hidden-pc {
+    display: inline-block;
+  }
+  .boutons #img_menu:hover #menu {
+    position: relative !important;
+    z-index: 1;
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+  .boutons #img_menu:hover .anim_float {
+    -webkit-transition: 0.1s;
+    transition: 0.1s;
+    position: relative;
+    left: 80px;
+    top: -200px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

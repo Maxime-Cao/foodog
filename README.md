@@ -29,10 +29,10 @@ Nous avons rencontré des problèmes de prise en main de Bootstrap. Cet outil, b
 
 ## Notre Dream Team
 
-*  [Maxime](https://github.com/Maxime-Cao) > CSS Footer 1 + Footer media (page d'accueil) / Rédaction du Readme / Footer et corps du texte article.
+*  [Maxime](https://github.com/Maxime-Cao) > CSS Footer 1 + Footer media (page d'accueil) / Rédaction du Readme / Version mobile et tablette de toutes les pages / Remplissage du formulaire.
 
-*  [Morgane](https://github.com/MorganeBeCode) > CSS Featured posts + Latest posts (page d'accueil) / Gestion des images / Version tablette / Corrections de bugs / Ajout de la troisième page.
+*  [Morgane](https://github.com/MorganeBeCode) > CSS Featured posts + Latest posts (page d'accueil) / Gestion des images / Corrections de bugs / Ajout de la troisième page / Footer et corps du texte article.
 
-*  [Anteo](https://github.com/AnteoCapeqi) > CSS Entete + Main articles (page d'accueil) / Version mobile / Menu de l'article.
+*  [Anteo](https://github.com/AnteoCapeqi) > CSS Entete + Main articles (page d'accueil) / Menu de l'article et bouton modulable / Version mobile et tablette de toutes les pages / Remplissage du formulaire.
 
-Tâches communes : création en Bootstrap de la structure de la page d'accueil et de l'article.
+Tâches communes : création en Bootstrap de la structure des pages.

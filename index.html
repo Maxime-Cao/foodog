@@ -1,217 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Index</title>
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Crimson+Text&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
-      rel="stylesheet"
-    />
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
-  </head>
-  <body>
-    <!--Entete-->
-    <section class="container">
-      <article class="row">
-        <div class="col-md-12"><h1>FooDog</h1></div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Index</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Text&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+</head>
+
+<body>
+  <!--Entete-->
+  <section class="container">
+    <article class="row">
+      <div class="col-md-12" id="hidden-mob">
+        <h1>FooDog</h1>
+      </div>
+    </article>
+    <nav class="row marge space sans nav_t" id="hidden-mob">
+      <div class="col-md-1"><a href="nutrition.html">Nutrition</a></div>
+      <div class="col-md-1"><a>Welness</a></div>
+      <div class="col-md-1"><a>Lifestyle</a></div>
+      <div class="col-md-1"><a>Community</a></div>
+    </nav>
+    <nav class="row resize" id="hidden-pc">
+      <div id="img_menu" class="col-md-4">
+        <a><img src="assets/images/menu_ico.png" alt="#"></a>
+        <div id="menu">
+          <a href="nutrition.html">Nutrition</a>
+          <a>Wellness</a>
+          <a>Lifestyle</a>
+          <a>Community</a>
+        </div>
+        <p class="pos_t anim_float">Foodog</h1>
+      </div>
+    </nav>
+  </section>
+  <!--Main articles-->
+  <section class="container pos_mob">
+    <div class="row n_w">
+      <div class="offset-md-1"></div>
+      <article class="col-md-6">
+        <div class="row ind-0">
+          <div class="col-md-12">
+            <img class="img_mob" alt="vomit.png" src="assets/images/vomit-1.png" />
+            <h2 class="pt-3" id="center">Wellness</h2>
+            <h3>5 Reasons your dog is vomiting</h3>
+          </div>
+        </div>
       </article>
-      <nav class="row marge space sans nav_t">
-        <div class="col-md-1"><a>Nutrition</a></div>
-        <div class="col-md-1"><a>Welness</a></div>
-        <div class="col-md-1"><a>Lifestyle</a></div>
-        <div class="col-md-1"><a>Community</a></div>
-      </nav>
-    </section>
-    <!--Main articles-->
-    <section class="container">
-      <div class="row n_w">
-        <div class="offset-md-1"></div>
-        <article class="col-md-6">
-          <div class="row">
-            <div class="col-md-12">
-              <img alt="vomit.png" src="assets/images/vomit-1.png" />
-              <h2 class="pt-3" id="center">Wellness</h2>
-              <h3>5 Reasons your dog is vomiting</h3>
-            </div>
+      <aside class="col-md-2">
+        <div class="row n_height">
+          <article class="col-md-12 pl-2 pr-2">
+            <img id="img-oversize" alt="Snacks" src="assets/images/snacks-1.png" />
+            <h4>Top 14 fresh snacks for dogs</h4>
+          </article>
+        </div>
+        <div class="row n_height">
+          <article class="col-md-12 pl-2 pr-2">
+            <img id="img-oversize" alt="Dangerous food" src="assets/images/dangerous.png" />
+            <h4>The 10 most dangerous foods for dogs</h4>
+          </article>
+        </div>
+      </aside>
+      <aside class="col-md-2">
+        <div class="row n_height">
+          <article class="col-md-12 pl-2 pr-2 rpos rpos_mob">
+            <img id="img-oversize" alt="Skinny dog" src="assets/images/skinny-1.png" />
+            <h4>Why skinny dogs live longer</h4>
+          </article>
+        </div>
+        <div class="row n_height">
+          <article class="col-md-12 pl-2 pr-2 rpos rpos_mob">
+            <img id="img-oversize" alt="History of commercial pet food" src="assets/images/history.png" />
+            <h4>
+              The history of commercial pet food: a great american marketing
+              story
+            </h4>
+          </article>
+        </div>
+      </aside>
+      <div class="offset-md-1"></div>
+    </div>
+  </section>
+  <!--Featured posts-->
+  <section class="container mt-5 featured">
+    <div class="row">
+      <article class="col-md-8">
+        <div class="row">
+          <div class="col-md-12">
+            <h5>Featured posts</h5>
+          </div>
+        </div>
+        <article class="row pt-2">
+          <div class="col-md-6 p-2">
+            <img alt="Cooking" src="assets/images/cooking.png" />
+          </div>
+          <div class="col-md-6 p-2">
+            <h2>Featured Nutrition <span id="v-line">|</span></h2>
+            <h4>
+              Cooking for your dog? Watch out for these nutrient deficiencies
+            </h4>
+            <p class="mb-1">
+              So you've discovered the many issues with commercial pet food
+              and have decided a home cooked diet is much
+            </p>
+            <a href=""> <i class="fas fa-share" id="share"></i>share</a>
           </div>
         </article>
-        <aside class="col-md-2">
-          <div class="row n_height">
-            <article class="col-md-12 pl-2 pr-2">
-              <img
-                id="img-oversize"
-                alt="Snacks"
-                src="assets/images/snacks-1.png"
-              />
-              <h4>Top 14 fresh snacks for dogs</h4>
-            </article>
+        <article class="row pt-2">
+          <div class="col-md-6 p-2">
+            <img alt="Sardines" src="assets/images/sardines.png" />
           </div>
-          <div class="row n_height">
-            <article class="col-md-12 pl-2 pr-2">
-              <img
-                id="img-oversize"
-                alt="Dangerous food"
-                src="assets/images/dangerous.png"
-              />
-              <h4>The 10 most dangerous foods for dogs</h4>
-            </article>
+          <div class="col-md-6 p-2">
+            <h2>Featured Nutrition <span id="v-line">|</span></h2>
+            <h4>
+              Why you should be feeding your dog sardines
+            </h4>
+            <p class="mb-1">
+              I usually associate sardines with Garfield cartoons, but I have
+              major news: that can of sardines that's been hiding in your
+            </p>
+            <a href=""> <i class="fas fa-share" id="share"></i>share</a>
           </div>
-        </aside>
-        <aside class="col-md-2">
-          <div class="row n_height">
-            <article class="col-md-12 pl-2 pr-2 rpos">
-              <img
-                id="img-oversize"
-                alt="Skinny dog"
-                src="assets/images/skinny-1.png"
-              />
-              <h4>Why skinny dogs live longer</h4>
-            </article>
+        </article>
+        <article class="row pt-2">
+          <div class="col-md-6 p-2">
+            <img alt="Skinny dog" src="assets/images/skinny-2.png" />
           </div>
-          <div class="row n_height">
-            <article class="col-md-12 pl-2 pr-2 rpos">
-              <img
-                id="img-oversize"
-                alt="History of commercial pet food"
-                src="assets/images/history.png"
-              />
-              <h4>
-                The history of commercial pet food: a great american marketing
-                story
-              </h4>
-            </article>
+          <div class="col-md-6 p-2">
+            <h2>Featured Nutrition <span id="v-line">|</span></h2>
+            <h4>
+              Why skinny dogs live longer
+            </h4>
+            <p class="mb-1">
+              We know you love every inch of your dog's body just the way it
+              is, but pudge can become a
+            </p>
+            <a href=""> <i class="fas fa-share" id="share"></i>share</a>
           </div>
-        </aside>
-        <div class="offset-md-1"></div>
-      </div>
-    </section>
-    <!--Featured posts-->
-    <section class="container mt-5 featured">
-      <div class="row">
-        <article class="col-md-8">
-          <div class="row">
-            <div class="col-md-12"><h5>Featured posts</h5></div>
+        </article>
+      </article>
+      <aside class="col-md-4 ">
+        <article class="row">
+          <div class="col-md-12 n_width" id="hidden-mob">
+            <!-- La case Facebook-->
+            <div class="row hblue_back mt-5">
+              <div class="col-md-1">
+                <i class="fab fa-facebook-f  align-middle"></i>
+              </div>
+              <div class="col-md text_back">
+                <p>21389 Fans</p>
+              </div>
+              <div class="col-md text_back txt_right">
+                <a href="">LIKE</a>
+              </div>
+            </div>
+            <!--Fin de la case Facebook-->
+            <!--La case Tweeter-->
+            <div class="row blue_back">
+              <div class="col-md-1">
+                <i class="fab fa-twitter align-middle"></i>
+              </div>
+              <div class="col-md text_back">
+                <p>1401 Followers</p>
+              </div>
+              <div class="col-md text_back txt_right">
+                <a href="">FOLLOW</a>
+              </div>
+            </div>
+            <!--Fin de la case Tweeter-->
+            <!--La case instagram-->
+            <div class="row mb-5 hblue_back">
+              <div class="col-md-1">
+                <i class="fab fa-instagram align-middle"></i>
+              </div>
+              <div class="col-md text_back">
+                <p>23400 Followers</p>
+              </div>
+              <div class="col-md text_back txt_right">
+                <a href="">FOLLOW</a>
+              </div>
+            </div>
+            <!--Fin de la case instagram-->
           </div>
-          <article class="row pt-2">
-            <div class="col-md-6 p-2">
-              <img alt="Cooking" src="assets/images/cooking.png" />
-            </div>
-            <div class="col-md-6 p-2">
-              <h2>Featured Nutrition <span id="v-line">|</span></h2>
-              <h4>
-                Cooking for your dog? Watch out for these nutrient deficiencies
-              </h4>
-              <p class="mb-1">
-                So you've discovered the many issues with commercial pet food
-                and have decided a home cooked diet is much
-              </p>
-              <a href=""> <i class="fas fa-share" id="share"></i>share</a>
-            </div>
-          </article>
-          <article class="row pt-2">
-            <div class="col-md-6 p-2">
-              <img alt="Sardines" src="assets/images/sardines.png" />
-            </div>
-            <div class="col-md-6 p-2">
-              <h2>Featured Nutrition <span id="v-line">|</span></h2>
-              <h4>
-                Why you should be feeding your dog sardines
-              </h4>
-              <p class="mb-1">
-                I usually associate sardines with Garfield cartoons, but I have
-                major news: that can of sardines that's been hiding in your
-              </p>
-              <a href=""> <i class="fas fa-share" id="share"></i>share</a>
-            </div>
-          </article>
-          <article class="row pt-2">
-            <div class="col-md-6 p-2">
-              <img alt="Skinny dog" src="assets/images/skinny-2.png" />
-            </div>
-            <div class="col-md-6 p-2">
-              <h2>Featured Nutrition <span id="v-line">|</span></h2>
-              <h4>
-                Why skinny dogs live longer
-              </h4>
-              <p class="mb-1">
-                We know you love every inch of your dog's body just the way it
-                is, but pudge can become a
-              </p>
-              <a href=""> <i class="fas fa-share" id="share"></i>share</a>
-            </div>
+          <article class="n_width">
+            <img alt="Ad" src="assets/images/ad.png" />
           </article>
         </article>
-        <aside class="col-md-4 ">
-          <article class="row">
-            <div class="col-md-12 n_width">
-              <!-- La case Facebook-->
-              <div class="row hblue_back mt-5">
-                <div class="col-md-1">
-                  <i class="fab fa-facebook-f  align-middle"></i>
-                </div>
-                <div class="col-md text_back">
-                  <p>21389 Fans</p>
-                </div>
-                <div class="col-md text_back txt_right">
-                  <a href="">LIKE</a>
-                </div>
-              </div>
-              <!--Fin de la case Facebook-->
-              <!--La case Tweeter-->
-              <div class="row blue_back">
-                <div class="col-md-1">
-                  <i class="fab fa-twitter align-middle"></i>
-                </div>
-                <div class="col-md text_back">
-                  <p>1401 Followers</p>
-                </div>
-                <div class="col-md text_back txt_right">
-                  <a href="">FOLLOW</a>
-                </div>
-              </div>
-              <!--Fin de la case Tweeter-->
-              <!--La case instagram-->
-              <div class="row mb-5 hblue_back">
-                <div class="col-md-1">
-                  <i class="fab fa-instagram align-middle"></i>
-                </div>
-                <div class="col-md text_back">
-                  <p>23400 Followers</p>
-                </div>
-                <div class="col-md text_back txt_right">
-                  <a href="">FOLLOW</a>
-                </div>
-              </div>
-              <!--Fin de la case instagram-->
-            </div>
-            <article class="n_width">
-              <img alt="Ad" src="assets/images/ad.png" />
-            </article>
-          </article>
-        </aside>
-      </div>
-    </section>
-    <!--Latest Post-->
-    <section class="container mt-5">
-      <div class="row">
-        <section class="col-md-8">
-          <h5>Latest posts</h5>
-          <section class="row">
-            <article class="col-md-6 p-2">
-              <img alt="Dog treats" src="assets/images/dog-food-1.png" />
+      </aside>
+    </div>
+  </section>
+  <!--Latest Post-->
+  <section class="container mt-5">
+    <div class="row">
+      <section class="col-md-8">
+        <h5>Latest posts</h5>
+        <section class="row">
+          <article class="col-md-6 p-2">
+            <a href="single.html"><img alt="Dog treats" src="assets/images/dog-food-1.png" />
               <h2 class="pt-2" id="center">Nutrition</h2>
               <h4 id="center">
                 The 11 dog food label tricks every owner needs to know
@@ -221,171 +213,161 @@
                 facts labels. We know to monitor our sodium intake, avoid
                 carrageenan and high
               </p>
-            </article>
-            <article class="col-md-6 p-2">
-              <img alt="Pumpkins" src="assets/images/pumpkins.png" />
-              <h2 class="pt-2" id="center">Nutrition</h2>
-              <h4 id="center">
-                Superfoods in your kitchen: pumpkins for dogs
-              </h4>
-              <p id="center">
-                They aren't just good for carving jack-o-lanterns or baking into
-                holiday pies.Packed with dietary fiber and potassium, pumpkins
-                are a
-              </p>
-            </article>
-          </section>
-          <section class="row">
-            <article class="col-md-6 p-2">
-              <img alt="Table scraps" src="assets/images/table-scrap.png" />
-              <h2 class="pt-2" id="center">Nutrition</h2>
-              <h4 id="center">
-                The truth about table scraps for dogs
-              </h4>
-              <p id="center">
-                Winter is a golden opportunity for our dogs to make their way
-                under heaping, warm dinner tables, sniffing for craps
-              </p>
-            </article>
-            <article class="col-md-6 p-2">
-              <img alt="Dog running" src="assets/images/family.png" />
-              <h2 class="pt-2" id="center">Lifestyle</h2>
-              <h4 id="center">
-                What family really means to your dog
-              </h4>
-              <p id="center">
-                Whether you prefer your turkey deep fried or roasted and your
-                potatoes mashed or sweet, Thanksgiving has one universal truth:
-              </p>
-            </article>
-          </section>
-          <section class="row">
-            <article class="col-md-6 p-2">
-              <img alt="Dog in office" src="assets/images/work.png" />
-              <h2 class="pt-2" id="center">Community Lifestyle</h2>
-              <h4 id="center">
-                Working like a dog: benefits of dogs in the office
-              </h4>
-              <p id="center">
-                Once upon a time, having dogs in the office seemed like
-                something out of a tech startup fairy tale; a
-              </p>
-            </article>
-            <article class="col-md-6 p-2">
-              <img alt="Vinegar" src="assets/images/vinegar.png" />
-              <h2 class="pt-2" id="center">Nutrition</h2>
-              <h4 id="center">
-                Superfoods in your kitchen: appel cider vinegar for dogs
-              </h4>
-              <p id="center">
-                Apple cider vinegar is a versatile health tonic. Packed with a
-                powerful flavor punch, this elixir works well in homemade
-              </p>
-            </article>
-          </section>
+            </a>
+          </article>
+          <article class="col-md-6 p-2">
+            <img alt="Pumpkins" src="assets/images/pumpkins.png" />
+            <h2 class="pt-2" id="center">Nutrition</h2>
+            <h4 id="center">
+              Superfoods in your kitchen: pumpkins for dogs
+            </h4>
+            <p id="center">
+              They aren't just good for carving jack-o-lanterns or baking into
+              holiday pies.Packed with dietary fiber and potassium, pumpkins
+              are a
+            </p>
+          </article>
+        </section>
+        <section class="row">
+          <article class="col-md-6 p-2">
+            <img alt="Table scraps" src="assets/images/table-scrap.png" />
+            <h2 class="pt-2" id="center">Nutrition</h2>
+            <h4 id="center">
+              The truth about table scraps for dogs
+            </h4>
+            <p id="center">
+              Winter is a golden opportunity for our dogs to make their way
+              under heaping, warm dinner tables, sniffing for craps
+            </p>
+          </article>
+          <article class="col-md-6 p-2">
+            <img alt="Dog running" src="assets/images/family.png" />
+            <h2 class="pt-2" id="center">Lifestyle</h2>
+            <h4 id="center">
+              What family really means to your dog
+            </h4>
+            <p id="center">
+              Whether you prefer your turkey deep fried or roasted and your
+              potatoes mashed or sweet, Thanksgiving has one universal truth:
+            </p>
+          </article>
+        </section>
+        <section class="row">
+          <article class="col-md-6 p-2">
+            <img alt="Dog in office" src="assets/images/work.png" />
+            <h2 class="pt-2" id="center">Community Lifestyle</h2>
+            <h4 id="center">
+              Working like a dog: benefits of dogs in the office
+            </h4>
+            <p id="center">
+              Once upon a time, having dogs in the office seemed like
+              something out of a tech startup fairy tale; a
+            </p>
+          </article>
+          <article class="col-md-6 p-2">
+            <img alt="Vinegar" src="assets/images/vinegar.png" />
+            <h2 class="pt-2" id="center">Nutrition</h2>
+            <h4 id="center">
+              Superfoods in your kitchen: appel cider vinegar for dogs
+            </h4>
+            <p id="center">
+              Apple cider vinegar is a versatile health tonic. Packed with a
+              powerful flavor punch, this elixir works well in homemade
+            </p>
+          </article>
+        </section>
 
-          <ul class="pagination">
-            <li class="page-num current">
-              1
+        <ul class="pagination">
+          <li class="page-num current">
+            1
+          </li>
+          <li class="page-num">
+            <a href="#">2</a>
+          </li>
+          <li class="dots">
+            ...
+          </li>
+          <li class="page-num">
+            <a href="#">17</a>
+          </li>
+          <li class="page-num">
+            <a href="#"><i class="fa fa-angle-right"></i></a>
+          </li>
+        </ul>
+      </section>
+      <div class="col-md-4"></div>
+    </div>
+  </section>
+  <!--footer 1-->
+  <footer class="container-fluid p-0" id="footer1-cont1">
+    <section class="container" id="footer1-cont2">
+      <div class="row">
+        <section class="col-md-4">
+          <h6 class="mb-0">CATEGORIES</h6>
+          <ul id="footer1-list">
+            <li class="list-item">
+              Community
             </li>
-            <li class="page-num">
-              <a href="#">2</a>
+            <li class="list-item">
+              Featured
             </li>
-            <li class="dots">
-              ...
+            <li class="list-item">
+              Lifestyle
             </li>
-            <li class="page-num">
-              <a href="#">17</a>
+            <li class="list-item">
+              Nutrition
             </li>
-            <li class="page-num">
-              <a href="#"><i class="fa fa-angle-right"></i></a>
+            <li class="list-item">
+              Wellness
             </li>
           </ul>
         </section>
-        <div class="col-md-4"></div>
+        <article class="col-md-4" id="hidden-mob">
+          <h6>POPULAR POSTS</h6>
+          <article class="row">
+            <div class="col-md-4">
+              <img class="pictures1" alt="Dog vomit" src="assets/images/vomit-2.png" />
+            </div>
+            <div class="col-md-8 pl-0">
+              5 Reasons Your Dog is Vomiting
+            </div>
+          </article>
+          <article class="row">
+            <div class="col-md-4">
+              <img class="pictures1" alt="Dog eat" src="assets/images/snacks-2.png" />
+            </div>
+            <div class="col-md-8 pl-0">
+              Top 14 Fresh Snacks for Dogs
+            </div>
+          </article>
+          <article class="row">
+            <div class="col-md-4">
+              <img class="pictures1" alt="Skinny dog" src="assets/images/skinny-3.png" />
+            </div>
+            <div class="col-md-8 pl-0">
+              Why Skinny Dogs Live Longer
+            </div>
+          </article>
+        </article>
+        <article class="col-md-4 flex">
+          <h6>INSTAGRAM</h6>
+          <img src="assets/images/insta.png" alt="insta" />
+        </article>
       </div>
     </section>
-    <!--footer 1-->
-    <footer class="container-fluid p-0" id="footer1-cont1">
-      <section class="container" id="footer1-cont2">
-        <div class="row">
-          <section class="col-md-4">
-            <h6 class="mb-0">CATEGORIES</h6>
-            <ul id="footer1-list">
-              <li class="list-item">
-                Community
-              </li>
-              <li class="list-item">
-                Featured
-              </li>
-              <li class="list-item">
-                Lifestyle
-              </li>
-              <li class="list-item">
-                Nutrition
-              </li>
-              <li class="list-item">
-                Wellness
-              </li>
-            </ul>
-          </section>
-          <article class="col-md-4">
-            <h6>POPULAR POSTS</h6>
-            <article class="row">
-              <div class="col-md-4">
-                <img
-                  class="pictures1"
-                  alt="Dog vomit"
-                  src="assets/images/vomit-2.png"
-                />
-              </div>
-              <div class="col-md-8 pl-0">
-                5 Reasons Your Dog is Vomiting
-              </div>
-            </article>
-            <article class="row">
-              <div class="col-md-4">
-                <img
-                  class="pictures1"
-                  alt="Dog eat"
-                  src="assets/images/snacks-2.png"
-                />
-              </div>
-              <div class="col-md-8 pl-0">
-                Top 14 Fresh Snacks for Dogs
-              </div>
-            </article>
-            <article class="row">
-              <div class="col-md-4">
-                <img
-                  class="pictures1"
-                  alt="Skinny dog"
-                  src="assets/images/skinny-3.png"
-                />
-              </div>
-              <div class="col-md-8 pl-0">
-                Why Skinny Dogs Live Longer
-              </div>
-            </article>
-          </article>
-          <article class="col-md-4 flex">
-            <h6>INSTAGRAM</h6>
-            <img src="assets/images/insta.png" alt="insta" />
-          </article>
+  </footer>
+  <!--Footer media-->
+  <article class="container-fluid p-0" id="footer-media">
+    <nav class="container">
+      <div class="row">
+        <div class="col-md-12 media-icons">
+          <i class="fab fa-facebook-f" id="icons"></i>
+          <i class="fab fa-twitter" id="icons"></i>
+          <i class="fab fa-instagram" id="icons"></i>
         </div>
-      </section>
-    </footer>
-    <!--Footer media-->
-    <article class="container-fluid p-0" id="footer-media">
-      <nav class="container">
-        <div class="row">
-          <div class="col-md-12 media-icons">
-            <i class="fab fa-facebook-f" id="icons"></i>
-            <i class="fab fa-twitter" id="icons"></i>
-            <i class="fab fa-instagram" id="icons"></i>
-          </div>
-        </div>
-      </nav>
-    </article>
-  </body>
+      </div>
+    </nav>
+  </article>
+</body>
+
 </html>
