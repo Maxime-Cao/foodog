@@ -1,4 +1,5 @@
 $grey: #aaaaaa;
+$rouge-foodog: #fa8460;
 
 .crim {
   font-family: "Crimson Text", serif;
@@ -70,7 +71,7 @@ h1 {
 
 h2 {
   @extend .sans;
-  color: #fa8460;
+  color: $rouge-foodog;
   word-spacing: 1em;
   font: {
     size: 0.5em !important;
@@ -419,6 +420,27 @@ $rouge-pinterest: #f74c53;
 #social-dark {
   @include bouton-social(#555555);
 }
+.boutons {
+  @extend .sans;
+  text-transform: uppercase;
+  font: {
+    size: 0.6em;
+    weight: bold;
+  }
+  border: {
+    style: none !important;
+    radius: 0px;
+  }
+  padding: 0.8em 3em 0.8em 3em;
+}
+#sign {
+  @include bouton-social($rouge-foodog);
+  @extend .boutons;
+}
+#comment {
+  @include bouton-social(black);
+  @extend .boutons;
+}
 /* fin */
 
 /* soustitres paragraphes single */
@@ -429,56 +451,34 @@ $rouge-pinterest: #f74c53;
     weight: 1000 !important;
   }
   padding-top: 1em;
+  color: #383838;
 }
-.styled{
-  background-color:#dd858f;
-  color: white;
-  margin-top:1em; 
-  margin-bottom:1em; 
+
+/* texte inscription newsletter */
+#newsletter-2 {
+  @extend .sans;
+  font: {
+    size: 0.6em;
+    weight: bold;
+  }
 }
-.t_pos{
-  text-align: center;
-  margin-top:0.8em; 
-  margin-bottom:0.8em; 
+#newsletter-1 {
+  @extend #newsletter-2;
+  font-size: 1.1em;
+  color: #383838;
 }
-.t_1{
-  font-size: 2.5em;
+/* fin */
+
+/* texte pour les placeholders */
+#form-text {
+  @extend .sans;
+  font-size: 0.6em;
+  padding: 0.5em 5em 0.5em 1em;
 }
-.t_2{
-  font-size: 1.5em;
-}
-.t_3{
-  font-size: 1.5em;
-}
-.t_4{
-  font-size: 0.8em !important;
-}
-.l_po{
-  position: relative;
-  right: 300px;
-}
-.w_5{
-  max-width: 10% !important;
-}
-.img_log{
-  width: 5em !important;
-}
-.p_pos{
-  margin-left: -3em;
-}
-.titl{
-  font-size: 2em;
-}
-.in_l{
-  align-content: center;
+
+/* formulaire comment */
+.in_l {
   width: 100%;
-  height: 10em;
+  height: 20em;
   margin-bottom: 2em;
-}
-.end_button{
-  margin-top: 3em; 
-  background-color: black;
-  color: white;
-  width: 10em;
-  height: 4em;;
 }

@@ -3,7 +3,7 @@
   font-family: "Crimson Text", serif;
 }
 
-.sans, .featured a, h2, h3, h4, h5, h6, .txt_right a, #footer1-cont2, .author, #titre {
+.sans, .featured a, h2, h3, h4, h5, h6, .txt_right a, #footer1-cont2, .author, .boutons, #sign, #comment, #titre, #newsletter-2, #newsletter-1, #form-text {
   font-family: "Open Sans", sans-serif;
 }
 
@@ -449,77 +449,56 @@ img {
   color: white !important;
 }
 
+.boutons, #sign, #comment {
+  text-transform: uppercase;
+  font-size: 0.6em;
+  font-weight: bold;
+  border-style: none !important;
+  border-radius: 0px;
+  padding: 0.8em 3em 0.8em 3em;
+}
+
+#sign {
+  background-color: #fa8460;
+  color: white !important;
+}
+
+#comment {
+  background-color: black;
+  color: white !important;
+}
+
 /* fin */
 /* soustitres paragraphes single */
 #titre {
   font-size: 0.7em;
   font-weight: 1000 !important;
   padding-top: 1em;
+  color: #383838;
 }
 
-.styled {
-  background-color: #dd858f;
-  color: white;
-  margin-top: 1em;
-  margin-bottom: 1em;
+/* texte inscription newsletter */
+#newsletter-2, #newsletter-1 {
+  font-size: 0.6em;
+  font-weight: bold;
 }
 
-.t_pos {
-  text-align: center;
-  margin-top: 0.8em;
-  margin-bottom: 0.8em;
+#newsletter-1 {
+  font-size: 1.1em;
+  color: #383838;
 }
 
-.t_1 {
-  font-size: 2.5em;
+/* fin */
+/* texte pour les placeholders */
+#form-text {
+  font-size: 0.6em;
+  padding: 0.5em 5em 0.5em 1em;
 }
 
-.t_2 {
-  font-size: 1.5em;
-}
-
-.t_3 {
-  font-size: 1.5em;
-}
-
-.t_4 {
-  font-size: 0.8em !important;
-}
-
-.l_po {
-  position: relative;
-  right: 300px;
-}
-
-.w_5 {
-  max-width: 10% !important;
-}
-
-.img_log {
-  width: 5em !important;
-}
-
-.p_pos {
-  margin-left: -3em;
-}
-
-.titl {
-  font-size: 2em;
-}
-
+/* formulaire comment */
 .in_l {
-  -ms-flex-line-pack: center;
-      align-content: center;
   width: 100%;
-  height: 10em;
+  height: 20em;
   margin-bottom: 2em;
-}
-
-.end_button {
-  margin-top: 3em;
-  background-color: black;
-  color: white;
-  width: 10em;
-  height: 4em;
 }
 /*# sourceMappingURL=style.css.map */
