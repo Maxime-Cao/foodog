@@ -278,6 +278,7 @@ img {
   line-height: 0.6em;
 }
 
+/*------------------------------------------------------------------------------------------*/
 #img_menu img {
   width: 2em;
   position: relative;
@@ -408,5 +409,71 @@ img {
   text-transform: uppercase;
   font-size: 0.5em !important;
   font-weight: bold !important;
+}
+
+#hidden-pc {
+  display: none;
+}
+
+/*Version mobile*/
+@media only screen and (min-width: 320px) and (max-width: 599px) {
+  #hidden-mob {
+    display: none;
+  }
+  #hidden-pc {
+    display: inline-block;
+  }
+  #img_menu:hover #menu {
+    position: relative !important;
+    z-index: 1;
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+  #img_menu:hover .anim_float {
+    -webkit-transition: 0.1s;
+    transition: 0.1s;
+    position: relative;
+    left: 80px;
+    top: -200px;
+  }
+  .n_w {
+    margin: 0 !important;
+    max-width: 100% !important;
+  }
+  .rpos_mob {
+    position: relative;
+    left: 0;
+  }
+  .pos_mob {
+    position: relative;
+    left: -1em;
+  }
+  .img_mob {
+    position: relative;
+    left: 1.5em;
+  }
+}
+
+/*Version tablette*/
+@media only screen and (min-width: 600px) and (max-width: 1080px) {
+  #hidden-mob {
+    display: none !important;
+  }
+  #hidden-pc {
+    display: inline-block;
+  }
+  #img_menu:hover #menu {
+    position: relative !important;
+    z-index: 1;
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+  #img_menu:hover .anim_float {
+    -webkit-transition: 0.1s;
+    transition: 0.1s;
+    position: relative;
+    left: 80px;
+    top: -200px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

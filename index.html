@@ -18,25 +18,37 @@
   <!--Entete-->
   <section class="container">
     <article class="row">
-      <div class="col-md-12">
+      <div class="col-md-12" id="hidden-mob">
         <h1>FooDog</h1>
       </div>
     </article>
-    <nav class="row marge space sans nav_t">
-      <div class="col-md-1"><a>Nutrition</a></div>
+    <nav class="row marge space sans nav_t" id="hidden-mob">
+      <div class="col-md-1"><a href="nutrition.html">Nutrition</a></div>
       <div class="col-md-1"><a>Welness</a></div>
       <div class="col-md-1"><a>Lifestyle</a></div>
       <div class="col-md-1"><a>Community</a></div>
     </nav>
+    <nav class="row resize" id="hidden-pc">
+      <div id="img_menu" class="col-md-4">
+        <a><img src="assets/images/menu_ico.png" alt="#"></a>
+        <div id="menu">
+          <a href="nutrition.html">Nutrition</a>
+          <a>Wellness</a>
+          <a>Lifestyle</a>
+          <a>Community</a>
+        </div>
+        <p class="pos_t anim_float">Foodog</h1>
+      </div>
+    </nav>
   </section>
   <!--Main articles-->
-  <section class="container">
+  <section class="container pos_mob">
     <div class="row n_w">
       <div class="offset-md-1"></div>
       <article class="col-md-6">
-        <div class="row">
+        <div class="row ind-0">
           <div class="col-md-12">
-            <img alt="vomit.png" src="assets/images/vomit-1.png" />
+            <img class="img_mob" alt="vomit.png" src="assets/images/vomit-1.png" />
             <h2 class="pt-3" id="center">Wellness</h2>
             <h3>5 Reasons your dog is vomiting</h3>
           </div>
@@ -58,13 +70,13 @@
       </aside>
       <aside class="col-md-2">
         <div class="row n_height">
-          <article class="col-md-12 pl-2 pr-2 rpos">
+          <article class="col-md-12 pl-2 pr-2 rpos rpos_mob">
             <img id="img-oversize" alt="Skinny dog" src="assets/images/skinny-1.png" />
             <h4>Why skinny dogs live longer</h4>
           </article>
         </div>
         <div class="row n_height">
-          <article class="col-md-12 pl-2 pr-2 rpos">
+          <article class="col-md-12 pl-2 pr-2 rpos rpos_mob">
             <img id="img-oversize" alt="History of commercial pet food" src="assets/images/history.png" />
             <h4>
               The history of commercial pet food: a great american marketing
@@ -136,7 +148,7 @@
       </article>
       <aside class="col-md-4 ">
         <article class="row">
-          <div class="col-md-12 n_width">
+          <div class="col-md-12 n_width" id="hidden-mob">
             <!-- La case Facebook-->
             <div class="row hblue_back mt-5">
               <div class="col-md-1">
@@ -191,16 +203,17 @@
         <h5>Latest posts</h5>
         <section class="row">
           <article class="col-md-6 p-2">
-            <img alt="Dog treats" src="assets/images/dog-food-1.png" />
-            <h2 class="pt-2" id="center">Nutrition</h2>
-            <h4 id="center">
-              The 11 dog food label tricks every owner needs to know
-            </h4>
-            <p id="center">
-              Health conscious consumers are skilled at deciphering nutrition
-              facts labels. We know to monitor our sodium intake, avoid
-              carrageenan and high
-            </p>
+            <a href="test.html"><img alt="Dog treats" src="assets/images/dog-food-1.png" />
+              <h2 class="pt-2" id="center">Nutrition</h2>
+              <h4 id="center">
+                The 11 dog food label tricks every owner needs to know
+              </h4>
+              <p id="center">
+                Health conscious consumers are skilled at deciphering nutrition
+                facts labels. We know to monitor our sodium intake, avoid
+                carrageenan and high
+              </p>
+            </a>
           </article>
           <article class="col-md-6 p-2">
             <img alt="Pumpkins" src="assets/images/pumpkins.png" />
@@ -309,7 +322,7 @@
             </li>
           </ul>
         </section>
-        <article class="col-md-4">
+        <article class="col-md-4" id="hidden-mob">
           <h6>POPULAR POSTS</h6>
           <article class="row">
             <div class="col-md-4">
